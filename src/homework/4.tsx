@@ -28,7 +28,7 @@ function MenuProvider({ children }: PropsProvider) {
     () => ({
       onSelectedMenu: setSelectedMenu,
     }),
-    []
+    [ ]
   );
 
   const menuContextSelected = useMemo(
