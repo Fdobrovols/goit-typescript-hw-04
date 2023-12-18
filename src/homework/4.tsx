@@ -19,7 +19,7 @@ const MenuActionContext = createContext<MenuAction>({
 });
 
 type PropsProvider = {
-  children: React.ReactElement;
+  children: React.ReactNode;
 };
 
 function MenuProvider({ children }: PropsProvider) {
